@@ -1,0 +1,1 @@
+cp -r ~/code/lewagon/batch942/livecode/credit_card_checker/ ~/code/lewagon/batch942/livecode/enhanced_credit_card_checker
