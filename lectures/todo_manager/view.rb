@@ -4,4 +4,10 @@ class View
     gets.chomp
   end
   
+  def display(tasks)
+    tasks.each_with_index do |task, index|
+      # task => Instance of `Task` class
+      puts "#{index + 1}. #{task.description}"
+    end
+  end
 end

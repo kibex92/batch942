@@ -7,4 +7,8 @@ class Repository # => Responsible to handle storage of task instances
     @tasks << task
   end
   
+  def all
+    @tasks
+  end
+  
 end

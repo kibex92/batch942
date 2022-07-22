@@ -17,4 +17,11 @@ class Controller
     @repository.add_task(task)
   end
   
+  def list
+    # 1. Get all tasks from repository
+    tasks = @repository.all
+    # 2. Pass them onto the display method of the view
+    @view.display(tasks)
+  end
+  
 end
