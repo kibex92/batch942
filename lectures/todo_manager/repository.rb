@@ -11,4 +11,8 @@ class Repository # => Responsible to handle storage of task instances
     @tasks
   end
   
+  def find(index)
+    @tasks[index]
+  end
+  
 end

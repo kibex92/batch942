@@ -24,4 +24,15 @@ class Controller
     @view.display(tasks)
   end
   
+  def mark_as_complete
+    # 1. Display all tasks to user
+    list
+    # 2. Ask the user for the index of the task
+    index = @view.ask_user_for_index
+    # 3. Ask repo to find the task => Create `find` method
+    task = @repository.find(index) # => Returns task instance of the task the user wants to mark
+    # 4. mark the task as complete
+    task.mark_as_complete!
+  end
+  
 end
