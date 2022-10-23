@@ -2,3 +2,5 @@ name,description,rating,done,prep_time
 Apple pie,with sauce,5,false,
 Burek,"This recipe is Eastern European in origin; being from Bosnia, my mom made this for me growing up and my whole family always looked forward to it! Serve with Balkan style yogurt for authenticity.",4,true,
 Balkan-Style Savory Cornbread,"Savory, salty, and tangy, this cornbread is great for breakfast, lunch, or a snack. The recipe is a mashup of Bulgarian banitsa and Bosnian razljevak. Serve warm, topped with plain yogurt or eat it by its lonesome self. If you love sweet cornbread, this probably isn't your cup of tea.",4.5,false,1 hr
+"",Whipping cream makes this chocolate milkshake recipe creamy and light as air. Drizzle with chocolate syrup after you pour in the cream for an even more sensational chocolaty treat.,4.3,false,10 mins
+Chocolate Chocolate Milkshake,Whipping cream makes this chocolate milkshake recipe creamy and light as air. Drizzle with chocolate syrup after you pour in the cream for an even more sensational chocolaty treat.,4.3,true,10 mins
